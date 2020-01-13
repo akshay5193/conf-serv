@@ -1,7 +1,6 @@
 ---
 
 server:
-  port: 8000
   servlet:
     context-path: /cust-api
 
