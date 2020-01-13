@@ -1,0 +1,16 @@
+---
+
+server:
+  port: 8500
+  servlet:
+    context-path: /sales-order-api
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/case_study?serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    ddl-auto: update
+  main:
+    allow-bean-definition-overriding: true
