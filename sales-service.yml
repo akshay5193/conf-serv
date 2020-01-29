@@ -1,7 +1,6 @@
 ---
 
 server:
-  port: 8500
   servlet:
     context-path: /sales-order-api
 
